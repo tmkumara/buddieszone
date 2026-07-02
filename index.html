@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buddies Zone</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <svg class="bg-accent" viewBox="0 0 1000 600" aria-hidden="true" preserveAspectRatio="xMidYMid slice">
+      <path class="bg-accent-curve" d="M -50 500 Q 300 350 650 450 T 1050 300"></path>
+      <circle class="bg-accent-dot" cx="120" cy="120" r="4"></circle>
+      <circle class="bg-accent-dot bg-accent-dot--delay1" cx="850" cy="180" r="3"></circle>
+      <circle class="bg-accent-dot bg-accent-dot--delay2" cx="700" cy="480" r="5"></circle>
+      <circle class="bg-accent-dot bg-accent-dot--delay3" cx="180" cy="420" r="3"></circle>
+    </svg>
+
+    <section class="hero">
+      <div class="hero-glow" aria-hidden="true">
+        <svg viewBox="0 0 200 200" class="glow-ring">
+          <circle cx="100" cy="100" r="70" class="glow-ring-circle"></circle>
+        </svg>
+      </div>
+      <img src="assets/buddies-icon.png" alt="Buddies" class="hero-logo">
+      <h1 class="hero-title">BUDDIES</h1>
+      <p class="hero-tagline">Your Vision, Our Mission</p>
+    </section>
+
+    <section class="cards reveal" id="cards">
+      <a class="card card--live" href="https://craft.buddieszone.lk" target="_blank" rel="noopener">
+        <h2 class="card-title">Craft</h2>
+        <p class="card-desc">Order management for Buddies Craft</p>
+        <span class="card-cta">Enter &rarr;</span>
+      </a>
+
+      <div class="card card--disabled" aria-disabled="true">
+        <span class="card-badge">Coming Soon</span>
+        <h2 class="card-title">Tech</h2>
+        <p class="card-desc">Buddies Tech, launching soon</p>
+      </div>
+    </section>
+
+    <footer class="footer reveal" id="footer">
+      <a class="footer-contact" href="tel:0783085081">078-3085081</a>
+      <span class="footer-sep" aria-hidden="true">&middot;</span>
+      <a class="footer-contact" href="mailto:hello.buddieslk@gmail.com">hello.buddieslk@gmail.com</a>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
