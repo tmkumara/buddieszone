@@ -271,4 +271,9 @@ main {
   .card--live:hover {
     transform: none;
   }
+
+  .bg-accent-dot,
+  .glow-ring {
+    animation: none;
+  }
 }
