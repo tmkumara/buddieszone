@@ -262,13 +262,13 @@ main {
 /* ==========================================================================
    Reveal animation (scroll-triggered)
    ========================================================================== */
-.reveal {
+.js .reveal {
   opacity: 0;
   transform: translateY(24px);
   transition: opacity 0.6s ease, transform 0.6s ease;
 }
 
-.reveal.is-visible {
+.js .reveal.is-visible {
   opacity: 1;
   transform: translateY(0);
 }
@@ -291,7 +291,7 @@ main {
     animation: none;
   }
 
-  .reveal {
+  .js .reveal {
     opacity: 1;
     transform: translateY(0);
     transition: none;
